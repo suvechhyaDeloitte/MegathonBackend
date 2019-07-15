@@ -21,8 +21,8 @@ test('responds to requests', (t) => {
       // Successful response
       t.equal(response.statusCode, 200);
       // Assert content checks
-      t.notEqual(body.indexOf("<title>Suvechhya App</title>"), -1);
-      t.notEqual(body.indexOf("Suvechhya App"), -1);
+      t.notEqual(body.indexOf("<title>Express and Webpack App</title>"), -1);
+      t.notEqual(body.indexOf("Express and Webpack App"), -1);
     });
   });
 });
